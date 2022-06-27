@@ -1,0 +1,82 @@
+@import "../Partials/variables.scss";
+@import "../general/texts";
+
+footer {
+  max-width: 1260px;
+  margin: 0 auto;
+  background: $col-white;
+
+  .footer-menu {
+    background: lime;
+
+    display: flex;
+    justify-content: space-around;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27px;
+      color: $col-black;
+
+      li {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: $col-green;
+        margin-bottom: 16px;
+        cursor: pointer;
+
+        @media (max-width: 800px) {
+          display: block;
+          text-align: center;
+        }
+
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+
+  .footer-tags {
+    padding: 45px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        padding: 4px 10px;
+        font-weight: 600;
+        font-size: 12x;
+        line-height: 18px;
+        background: $col-grey-1;
+        border-radius: 12px;
+        display: inline-flex;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        cursor: pointer;
+
+        @media (max-width: 800px) {
+          display: block;
+          text-align: center;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    padding: 45px;
+    padding-top: 0px;
+    font-size: 14px;
+    line-height: 19px;
+    color: $col-black;
+  }
+}

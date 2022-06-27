@@ -1,0 +1,12 @@
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+@media (max-width: 800px) {
+  .title {
+    display: block;
+    text-align: center;
+  }
+}/*# sourceMappingURL=texts.css.map */
