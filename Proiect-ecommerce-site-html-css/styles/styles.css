@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Khula:wght@400;600;700&family=Lora:wght@400;700&family=Mulish:wght@300;400;600;700&family=Poppins:wght@400;600;700&family=Roboto:ital,wght@0,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Khula:wght@400;600;700&family=Lora:wght@400;700&family=Mulish:wght@300;400;600;700&family=Poppins:wght@400;600;700&family=Roboto:ital,wght@0,400;1,500&display=swap");
 .title {
   font-weight: 600;
   font-size: 18px;
@@ -18,9 +19,8 @@ footer {
   background: #ffffff;
 }
 footer .footer-menu {
-  background: lime;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 footer .footer-menu ul {
   margin: 0;
@@ -30,6 +30,7 @@ footer .footer-menu ul {
   font-size: 18px;
   line-height: 27px;
   color: #151515;
+  padding: 45px 45px 0px 45px;
 }
 footer .footer-menu ul li {
   font-weight: 400;
@@ -84,6 +85,12 @@ footer .footer-copyright {
   line-height: 19px;
   color: #151515;
 }
+@media (max-width: 800px) {
+  footer .footer-copyright {
+    display: block;
+    text-align: center;
+  }
+}
 
 .title {
   font-weight: 600;
@@ -103,4 +110,149 @@ body {
   margin: 0;
   padding: 0;
   background: #f9f9f9;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+@media (max-width: 800px) {
+  .title {
+    display: block;
+    text-align: center;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+.category-menu {
+  margin: 0 auto;
+  max-width: 1260px;
+  background: #ffffff;
+}
+.category-menu .box {
+  padding: 45px 60px;
+  display: flex;
+}
+.category-menu .box .menu {
+  display: block;
+  margin-right: 120px;
+}
+.category-menu .box .menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.category-menu .box .menu ul span {
+  margin-bottom: 16px;
+}
+.category-menu .box .menu ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6a983c;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  cursor: pointer;
+  padding-bottom: 12px;
+}
+.category-menu .box .menu ul li:last-child {
+  padding-bottom: 0px;
+  margin-bottom: 45px;
+}
+.category-menu .box .menu .btn-more-categories {
+  background: #f5f5f5;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  display: flex;
+}
+.category-menu .box .banner {
+  background: #f4f8ec;
+  border-radius: 12px;
+  width: 420px;
+  height: 280px;
+  margin-right: 30px;
+}
+.category-menu .box .banner span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #6a983c;
+  margin-bottom: 8px;
+  padding-left: 33px;
+  padding-top: 45px;
+}
+.category-menu .box .banner .heading-space {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #151515;
+  padding: 0px 0px 90px 33px;
+}
+.category-menu .box .banner .btn-read-recepies {
+  border: 2px solid #92c064;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  margin-left: 33px;
+  max-width: 150px;
+}
+
+.best-selling-products .box {
+  display: flex;
+}
+.best-selling-products .box .menu {
+  display: block;
+}
+.best-selling-products .box .menu .ul {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+  padding-bottom: 16px;
+}
+.best-selling-products .box .menu .ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #6a983c;
+  padding-bottom: 12px;
+}
+.best-selling-products .box .menu .btn-more-products {
+  background: #f5f5f5;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  width: 167px;
+  height: 48px;
+  padding: 12px 16px;
+}
+.best-selling-products .box .product-card {
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+}
+.best-selling-products .box .product-card .picture {
+  background: #f9f9f9;
+  border-radius: 12px;
+  width: 237px;
+  height: 180px;
 }/*# sourceMappingURL=styles.css.map */

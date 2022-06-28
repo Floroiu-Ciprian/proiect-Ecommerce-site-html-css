@@ -1,1 +1,47 @@
-/*# sourceMappingURL=listing-products.css.map */
+.best-selling-products {
+  background: #ffffff;
+}
+.best-selling-products .box {
+  display: flex;
+}
+.best-selling-products .box .menu {
+  display: block;
+}
+.best-selling-products .box .menu .ul {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+  padding-bottom: 16px;
+}
+.best-selling-products .box .menu .ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #6a983c;
+  padding-bottom: 12px;
+}
+.best-selling-products .box .menu .btn-more-products {
+  background: #f5f5f5;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  width: 167px;
+  height: 48px;
+  padding: 12px 16px;
+}
+.best-selling-products .box .product-card {
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+}
+.best-selling-products .box .product-card .picture {
+  background: #f9f9f9;
+  border-radius: 12px;
+  width: 237px;
+  height: 180px;
+}/*# sourceMappingURL=listing-products.css.map */
