@@ -1,47 +1,52 @@
-.best-selling-products {
-  background: #ffffff;
-}
-.best-selling-products .box {
-  display: flex;
-}
-.best-selling-products .box .menu {
-  display: block;
-}
-.best-selling-products .box .menu .ul {
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  color: #151515;
-  padding-bottom: 16px;
-}
-.best-selling-products .box .menu .ul li {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  color: #6a983c;
-  padding-bottom: 12px;
-}
-.best-selling-products .box .menu .btn-more-products {
-  background: #f5f5f5;
-  border-radius: 12px;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 22px;
-  color: #151515;
-  width: 167px;
-  height: 48px;
-  padding: 12px 16px;
-}
-.best-selling-products .box .product-card {
-  background: #ffffff;
-  border: 1px solid #d1d1d1;
-  border-radius: 12px;
-}
-.best-selling-products .box .product-card .picture {
-  background: #f9f9f9;
-  border-radius: 12px;
-  width: 237px;
-  height: 180px;
-}/*# sourceMappingURL=listing-products.css.map */
+/*
+Error: File to import not found or unreadable: Partials/variables.
+       Load path: C:/Users/Cips/Desktop/Curs Html-CSS (Florin Matei/Proiect-ecommerce-site-html-css/styles/components
+        on line 1 of C:\Users\Cips\Desktop\Curs Html-CSS (Florin Matei\Proiect-ecommerce-site-html-css\styles\components\listing-products.scss
+
+1: @import "Partials/variables";
+2: @import "general/general";
+3: @import "general/texts";
+4: 
+5: .best-selling-products {
+6:   max-width: 1260px;
+
+Backtrace:
+C:\Users\Cips\Desktop\Curs Html-CSS (Florin Matei\Proiect-ecommerce-site-html-css\styles\components\listing-products.scss:1
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: Partials/variables.\A        Load path: C:/Users/Cips/Desktop/Curs Html-CSS (Florin Matei/Proiect-ecommerce-site-html-css/styles/components\A         on line 1 of C:\Users\Cips\Desktop\Curs Html-CSS (Florin Matei\Proiect-ecommerce-site-html-css\styles\components\listing-products.scss\A \A 1: @import \"Partials/variables\";\A 2: @import \"general/general\";\A 3: @import \"general/texts\";\A 4: \A 5: .best-selling-products {\A 6:   max-width: 1260px;"; }

@@ -1,0 +1,122 @@
+.section-headline {
+  max-width: 1260px;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  padding: 60px 45px;
+}
+.section-headline .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+.section-headline .heading .title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+.section-headline .heading span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  padding: 6px 12px;
+}
+.section-headline .box {
+  display: flex;
+  align-items: center;
+}
+.section-headline .box .product-card {
+  border: 1px solid #d1d1d1;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0px 16px;
+}
+.section-headline .box .product-card:first-child {
+  margin-left: 0;
+}
+.section-headline .box .product-card:last-child {
+  margin-right: 0;
+}
+.section-headline .box .product-card .no-discount-photo {
+  display: block;
+  width: 200px;
+  height: 180px;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.section-headline .box .product-card .picture {
+  display: block;
+  width: 200px;
+  height: 180px;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.section-headline .box .product-card .picture span {
+  color: #6a983c;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.section-headline .box .product-card .title {
+  color: #151515;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.section-headline .box .product-card span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+}
+.section-headline .box .product-card .card-monetization {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.section-headline .box .product-card .card-monetization .price {
+  color: #151515;
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+.section-headline .box .product-card .card-monetization .price .spacing {
+  padding: 9px;
+}
+.section-headline .box .product-card .card-monetization .price span {
+  text-decoration-line: line-through;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #a9a9a9;
+}
+.section-headline .box .product-card .card-monetization .buy-btn a {
+  text-decoration: none;
+  background: #6a983c;
+  border: 2px solid #46760a;
+  border-radius: 12px;
+  padding: 6px 12px;
+  color: #ffffff;
+  line-height: 22px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}

@@ -1,10 +1,10 @@
-@import "Partials/variables";
-@import "general/general";
-@import "general/texts";
+@import "../Partials/variables";
+@import "../general/texts";
+@import "../general/general";
 
 .best-selling-products {
   max-width: 1260px;
-  background: #ffffff;
+  background: $col-white;
   margin: 0;
   padding: 0;
   margin: 0 auto;
@@ -18,7 +18,7 @@
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      margin-right: 99px;
+      margin-right: 90px;
       min-width: 100px;
 
       span {
@@ -35,45 +35,51 @@
         margin: 0;
 
         li {
-          color: #6a983c;
-          text-decoration-line: underline;
-          cursor: pointer;
-          line-height: 19px;
-          font-size: 14px;
-          font-weight: 400;
-          padding-bottom: 12px;
-
-          &:last-child {
-            margin-bottom: 45px;
+          a {
+            padding: 0;
+            display: block;
+            color: #6a983c;
+            text-decoration-line: underline;
+            cursor: pointer;
+            line-height: 19px;
+            font-size: 14px;
+            font-weight: 400;
+            padding-bottom: 12px;
           }
         }
       }
       .btn-more-products {
+        text-decoration-line: none;
         cursor: pointer;
         background: #f5f5f5;
         border-radius: 12px;
         padding: 12px 16px;
-        color: #151515;
+        color: $col-black;
         line-height: 22px;
         font-size: 15px;
         font-weight: 700;
         max-width: 140px;
+        margin-top: 45px;
       }
     }
 
     .product-card {
       border: 1px solid #d1d1d1;
-      background: #ffffff;
+      background: $col-white;
       border-radius: 12px;
       padding: 16px;
       margin: 0px 16px;
 
+      &:last-child {
+        margin-right: 0;
+      }
+
       .no-discount-photo {
         display: block;
         width: 200px;
-        height: 220px;
+        height: 180px;
         padding: 16px;
-        background: #f9f9f9;
+        background: $col-grey-2;
         border-radius: 12px;
         margin-bottom: 16px;
         cursor: pointer;
@@ -85,14 +91,14 @@
         width: 200px;
         height: 180px;
         padding: 16px;
-        background: #f9f9f9;
+        background: $col-grey-2;
         border-radius: 12px;
         margin-bottom: 16px;
         cursor: pointer;
         text-decoration: none;
 
         span {
-          color: #6a983c;
+          color: $col-green;
           line-height: 18px;
           font-size: 12px;
           font-weight: 600;
@@ -101,7 +107,7 @@
       }
 
       .title {
-        color: #151515;
+        color: $col-black;
         line-height: 22px;
         font-size: 15px;
         font-weight: 500;
@@ -122,12 +128,16 @@
         margin-top: 15px;
 
         .price {
-          color: #151515;
+          color: $col-black;
           line-height: 27px;
           font-size: 18px;
           font-weight: 600;
           display: flex;
           flex-direction: column;
+
+          .spacing {
+            padding: 9px;
+          }
 
           span {
             text-decoration-line: line-through;
@@ -140,11 +150,11 @@
         .buy-btn {
           a {
             text-decoration: none;
-            background: #6a983c;
+            background: $col-green;
             border: 2px solid #46760a;
             border-radius: 12px;
             padding: 6px 12px;
-            color: #ffffff;
+            color: $col-white;
             line-height: 22px;
             font-size: 15px;
             font-weight: 700;

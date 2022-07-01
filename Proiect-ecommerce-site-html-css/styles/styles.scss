@@ -1,8 +1,10 @@
 // @use "./components/footer";
 
-@import "./components/footer";
-@import "./Partials/variables";
-@import "./general/texts";
-@import "./general/general";
-@import "./sections/category-menu";
-@import "./components/listing-products";
+@import "components/footer";
+@import "Partials/variables";
+@import "general/texts";
+@import "general/general";
+@import "sections/category-menu";
+@import "./sections/best-selling-products";
+@import "./sections/section-headline";
+@import "./sections/best-from-farmers";

@@ -1,5 +1,6 @@
-@import "../Partials/variables.scss";
+@import "../Partials/variables";
 @import "../general/texts";
+@import "../general/general";
 
 footer {
   max-width: 1260px;
@@ -9,32 +10,39 @@ footer {
   .footer-menu {
     display: flex;
     justify-content: space-between;
+    padding: 0px 45px;
+    padding-top: 30px;
 
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    span {
       font-weight: 600;
       font-size: 18px;
       line-height: 27px;
       color: $col-black;
-      padding: 45px 45px 0px 45px;
+      display: flex;
+      flex-direction: column;
 
-      li {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 19px;
-        color: $col-green;
-        margin-bottom: 16px;
-        cursor: pointer;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        padding-top: 16px;
 
-        @media (max-width: 800px) {
-          display: block;
-          text-align: center;
-        }
+        li {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: $col-green;
+          margin-bottom: 16px;
+          cursor: pointer;
 
-        &:last-child {
-          margin-bottom: 0px;
+          @media (max-width: 800px) {
+            display: block;
+            text-align: center;
+          }
+
+          &:last-child {
+            margin-bottom: 0px;
+          }
         }
       }
     }

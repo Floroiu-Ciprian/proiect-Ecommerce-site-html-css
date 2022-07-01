@@ -1,0 +1,148 @@
+@import "../Partials/variables";
+@import "../general/texts";
+@import "../general/general";
+
+.section-headline {
+  max-width: 1260px;
+  background: $col-white;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+
+  .box1 {
+    padding: 60px 45px;
+
+    .heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      .title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: $col-black;
+      }
+
+      span {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+        color: $col-black;
+        padding: 6px 12px;
+      }
+    }
+
+    .box2 {
+      display: flex;
+      align-items: center;
+
+      .product-card {
+        border: 1px solid #d1d1d1;
+        background: $col-white;
+        border-radius: 12px;
+        padding: 16px;
+        margin: 0px 16px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .no-discount-photo {
+          display: block;
+          width: 200px;
+          height: 180px;
+          padding: 16px;
+          background: $col-grey-2;
+          border-radius: 12px;
+          margin-bottom: 16px;
+          cursor: pointer;
+          text-decoration: none;
+        }
+
+        .picture {
+          display: block;
+          width: 200px;
+          height: 180px;
+          padding: 16px;
+          background: $col-grey-2;
+          border-radius: 12px;
+          margin-bottom: 16px;
+          cursor: pointer;
+          text-decoration: none;
+
+          span {
+            color: $col-green;
+            line-height: 18px;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2px;
+          }
+        }
+
+        .title {
+          color: $col-black;
+          line-height: 22px;
+          font-size: 15px;
+          font-weight: 500;
+          margin-bottom: 5px;
+        }
+
+        span {
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 16px;
+          color: #575757;
+        }
+
+        .card-monetization {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 15px;
+
+          .price {
+            color: $col-black;
+            line-height: 27px;
+            font-size: 18px;
+            font-weight: 600;
+            display: flex;
+            flex-direction: column;
+
+            .spacing {
+              padding: 9px;
+            }
+
+            span {
+              text-decoration-line: line-through;
+              font-weight: 600;
+              font-size: 12px;
+              line-height: 18px;
+              color: #a9a9a9;
+            }
+          }
+
+          .buy-btn {
+            a {
+              text-decoration: none;
+              background: $col-green;
+              border: 2px solid #46760a;
+              border-radius: 12px;
+              padding: 6px 12px;
+              color: $col-white;
+              line-height: 22px;
+              font-size: 15px;
+              font-weight: 700;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}
