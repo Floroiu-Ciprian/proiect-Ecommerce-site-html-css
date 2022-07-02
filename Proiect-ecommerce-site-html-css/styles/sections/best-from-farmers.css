@@ -33,9 +33,11 @@ body {
   align-items: center;
 }
 .best-from-farmers .box .menu {
+  display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  margin-right: 20px;
-  min-width: 180px;
+  margin-right: 115px;
+  min-width: 160px;
 }
 .best-from-farmers .box .menu span {
   line-height: 27px;
