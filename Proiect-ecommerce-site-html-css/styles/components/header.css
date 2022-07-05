@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap");
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 16px;
+}
+@media (max-width: 800px) {
+  .title {
+    display: block;
+    text-align: center;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f9f9f9;
+}
+
+.header-box {
+  display: block;
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.header-box .header-info {
+  display: flex;
+  align-items: center;
+  padding: 16px 45px;
+}
+.header-box .header-info .chat {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6a983c;
+  margin-right: 30px;
+}
+.header-box .header-info .phone {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #151515;
+  margin-right: 30px;
+}
+.header-box .header-info .email {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #151515;
+  margin-right: 590px;
+}
+.header-box .header-info .blog {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6a983c;
+  margin-right: 30px;
+}
+.header-box .header-info .about-us {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6a983c;
+  margin-right: 30px;
+}
+.header-box .header-info .careers {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6a983c;
+}
+.header-box .header-main {
+  display: flex;
+  align-items: center;
+  padding: 45px;
+}
+.header-box .header-main .logo {
+  color: #151515;
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 155px;
+}
+.header-box .header-main .search-bar {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 11px 16px;
+  margin-right: 250px;
+  width: 500px;
+}
+.header-box .header-main .search-bar label {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header-box .header-main .search-bar label img {
+  width: 15px;
+  color: #6a983c;
+}
+.header-box .header-main .search-bar .bara-verticala {
+  border: 1px solid #d1d1d1;
+  margin-left: 15px;
+  margin-right: 25px;
+  height: 25px;
+  background: #f9f9f9;
+}
+.header-box .header-main .search-bar .search {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgb(119, 116, 116);
+  margin-right: 15px;
+  width: 220px;
+  border: none;
+  background: #f9f9f9;
+  margin-right: 15px;
+}
+.header-box .header-main .search-bar .search-logo {
+  width: 20px;
+  cursor: pointer;
+}
+.header-box .header-main .login-logo {
+  width: 30px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.header-box .header-main .shopping-cart-logo {
+  width: 30px;
+  cursor: pointer;
+}
+
+.header-menu-box {
+  max-width: 1260px;
+  margin: 0 auto;
+  background: #f9f9f9;
+}
+.header-menu-box ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 45px;
+}
+.header-menu-box ul li {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  margin-right: 45px;
+  display: inline-flex;
+  align-items: center;
+}
+.header-menu-box ul li img {
+  width: 10px;
+  height: 10px;
+  color: #6a983c;
+  padding-left: 8px;
+}/*# sourceMappingURL=header.css.map */
